@@ -2,8 +2,8 @@
 
 This module contains a simple Battle Ship game, which can be described as folows:
 - There are two players in the game.
-- Players have their own battle area with similar dimentions, each coordinate typically refferred as a cell.
-- Players have same number of ships with similar dimentions which are places on their respective battle area.
+- Players have their own battle area with similar dimensions, each coordinate typically refferred as a cell.
+- Players have same number of ships with similar dimensions which are places on their respective battle area.
 - Ships can be of two types, P(weak) and Q(strong).
 - P type Ship takes a sigle hit on its cell to get cell destroyed whereas Q takes 2.
 - Players have moves which target a certain cell of a battle area ().
@@ -25,7 +25,7 @@ pip install .
 game test.txt
 ```
 
-# Run unitests
+# Run unittests
 ```
 make unittests
 ```
